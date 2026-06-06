@@ -1,0 +1,8 @@
+<footer th:fragment="practiceFooter" class="text-center text-muted mt-5 py-3 border-top">
+    <small>
+        학번: 2371742 |
+        성명: 김도희 |
+        실습 수행:
+        <span th:text="${#temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss')}"></span>
+    </small>
+</footer>
